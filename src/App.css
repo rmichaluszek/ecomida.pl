@@ -33,3 +33,10 @@ section {
 .BannerSection{
   padding-top: 90px;
 }
+.Product {
+  cursor: pointer;
+  transition: border-color 0.1s ease-out;
+}
+.Product:hover {
+  border-color: rgb(71, 170, 71);
+}
