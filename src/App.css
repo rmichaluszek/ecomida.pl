@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+.Container {
+  width: 100%;
+  max-width: 1280px;
+  min-width: 300px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  margin-top: -50px;
+  color: rgb(71, 170, 71);
+
+  text-align: center;
+}
+.Desc {
+  color:rgb(39, 43, 39);
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+section {
+  padding-top: 160px;
+}
+.BannerSection{
+  padding-top: 90px;
+}

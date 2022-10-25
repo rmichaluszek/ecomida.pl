@@ -1,0 +1,12 @@
+.Footer {
+    background-color: #232323;
+    width: 100%;
+    color: white;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.BigText {
+    text-align: center;
+    line-height: 50px;
+}
