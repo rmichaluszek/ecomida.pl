@@ -6,14 +6,18 @@ function ProductPopup(props) {
 
     return (
         <Dialog
-            width="70%"
+            width="90%"
             isShown={props.isShown}
             hasCancel={false}
             intent="success"
             title="Ecomida Grain Free Adult Lamb & Sweet Potato"
-            onCloseComplete={() => props.setIsShown(false)}
+            onCloseComplete={() => {
+                props.setIsShown(false);
+                document.body.style.overflow = "auto";
+            }}
             confirmLabel="Zobacz w sklepie"
             hasFooter={false}
+            preventBodyScrolling={true}
         >
             <Pane>
                 Opis <br></br>

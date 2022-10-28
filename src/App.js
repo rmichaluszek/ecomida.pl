@@ -15,11 +15,7 @@ function App() {
   return (
     <div className="App">
       
-
-      <ProductPopup isShown={isProductPopupShown} setIsShown={setIsProductPopupShown}></ProductPopup>
-
       <Topbar></Topbar>
-
 
       <section className="BannerSection" id="home">
       <Banner></Banner>
@@ -48,6 +44,8 @@ function App() {
               <Card margin="1%" minWidth="320px" width="31%" height={500} display="flex" alignItems="center" justifyContent="center" border="default">Siema2</Card>
               <Card margin="1%" minWidth="320px" width="31%" height={500} display="flex" alignItems="center" justifyContent="center" border="default">Siema2</Card>
             </Pane>
+            <ProductPopup isShown={isProductPopupShown} setIsShown={setIsProductPopupShown}></ProductPopup>
+
           </section>
 
 
@@ -86,7 +84,6 @@ function App() {
       </div>
 
       <Footer></Footer>
-      
     </div>
   );
 }

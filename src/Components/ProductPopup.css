@@ -19,11 +19,11 @@
     margin-top: 25px;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out;
-  -ms-transition: opacity 0.2s ease-in-out;
-  -o-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
-  float: left;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    float: left;
 }
 .Topbar .Logo:hover {
     opacity: .8;
@@ -42,4 +42,13 @@
 
 .Topbar Button {
     transition: border ease-out 0.4s;
+} 
+
+.ub-max-h_1duvey0 {
+    max-height: 2000px !important;
+    height: 1000px;
+}
+
+.ub-algn-itms_flex-start {
+    overflow-y: scroll;
 }
