@@ -6,7 +6,7 @@ function ProductPopup(props) {
 
     return (
         <Dialog
-            width="90%"
+            width="70%"
             isShown={props.isShown}
             hasCancel={false}
             intent="success"
@@ -14,10 +14,10 @@ function ProductPopup(props) {
             onCloseComplete={() => {
                 props.setIsShown(false);
                 document.body.style.overflow = "auto";
+                document.body.style.paddingRight = "0px";
             }}
             confirmLabel="Zobacz w sklepie"
             hasFooter={false}
-            preventBodyScrolling={true}
         >
             <Pane>
                 Opis <br></br>

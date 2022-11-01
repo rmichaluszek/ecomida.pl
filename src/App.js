@@ -7,10 +7,15 @@ import Banner from './Components/Banner';
 import Footer from './Components/Footer';
 import ProductPopup from './Components/ProductPopup';
 
+import useScrollbarSize from 'react-scrollbar-size';
+
+
 function App() {
 
   const [isProductPopupShown, setIsProductPopupShown] = React.useState(false)
   const [selectedProductId, setSelectedProductId] = React.useState(-1)
+
+  const { height, width } = useScrollbarSize();
 
   return (
     <div className="App">
@@ -34,6 +39,8 @@ function App() {
               <Card onClick={()=> {
                 setSelectedProductId(0)
                 setIsProductPopupShown(true)
+                document.body.style.overflow = "hidden";
+                document.body.style.paddingRight = width+"px";
               }}
               className="Product"
               margin="1%" minWidth="320px" width="31%" height={500} display="flex" alignItems="center" justifyContent="center" border="default">Siema1</Card>
