@@ -41,3 +41,11 @@ section {
   border-color: rgb(71, 170, 71);
   box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
 }
+
+.css-xeqldi {
+  background-color: rgba(0,0,0,0.4);
+}
+
+.css-xeqldi::before, [data-css-xeqldi]::before, .css-xeqldi[data-simulate-before], [data-css-xeqldi][data-simulate-before] {
+  background-color: rgba(0,0,0,0) !important;
+}
