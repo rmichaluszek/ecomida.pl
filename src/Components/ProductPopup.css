@@ -1,8 +1,66 @@
 .ub-max-h_1duvey0 {
-    max-height: 2000px !important;
-    height: 1000px;
+    max-height: 6000px !important;
+    min-height: 200px;
+    padding-bottom: 20px;
+    overflow-y: hidden;
 }
 
 .ub-algn-itms_flex-start {
     overflow-y: scroll;
+}
+.shopLink {
+    margin-top: 20px;
+    background-color: rgb(71, 170, 71);
+    color: white;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+}
+.shopLink:hover {
+    background-color: rgb(55, 139, 55) !important;
+}
+
+.ProductPageSection {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ProductPageBrandImg {
+    width: 300px;
+}
+
+.SubBrandName {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(30, 75, 30);
+    margin-bottom: 30px;
+}
+.ProductName {
+    font-size: 45px;
+    font-weight: bold;
+    color:rgb(49, 141, 49);
+}
+.ProductNameTranslation {
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(49, 141, 49);
+}
+
+
+.Desc {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.ProductImage {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 340px 380px;
+
+    transition: border-color 0.2s ease-in-out;
+}
+.ProductImage:hover {
+    border-color: rgb(101, 197, 101);
+    cursor: pointer;
 }
