@@ -20,13 +20,24 @@
 }
 
 .ProductPageSection {
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 .ProductPageBrandImg {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
+    min-width: 150px;
+}
+.Table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .SubBrandName {
@@ -34,16 +45,21 @@
     font-weight: bold;
     color: rgb(30, 75, 30);
     margin-bottom: 30px;
+    line-height: 30px;
+    margin-top: -15px;
 }
 .ProductName {
-    font-size: 45px;
+    font-size: 42px;
+    line-height: 42px;
     font-weight: bold;
     color:rgb(49, 141, 49);
 }
 .ProductNameTranslation {
-    font-size: 35px;
+    font-size: 33px;
     font-weight: bold;
     color:rgb(49, 141, 49);
+    line-height: 33px;
+    margin-top: -20px;
 }
 
 
@@ -63,4 +79,10 @@
 .ProductImage:hover {
     border-color: rgb(101, 197, 101);
     cursor: pointer;
+}
+
+.ProductMainImage {
+    max-width: 500px;
+    width: 100%;
+    min-width: 300px;
 }
