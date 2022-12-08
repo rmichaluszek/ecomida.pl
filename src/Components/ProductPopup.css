@@ -1,5 +1,5 @@
 .ub-max-h_1duvey0 {
-    max-height: 6000px !important;
+    max-height: 20000px !important;
     min-height: 200px;
     padding-bottom: 20px;
     overflow-y: hidden;
@@ -85,4 +85,10 @@
     max-width: 500px;
     width: 100%;
     min-width: 300px;
+}
+.Cell {
+    white-space: initial !important;
+}
+.Cell span {
+    white-space: initial;
 }

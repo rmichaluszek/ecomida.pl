@@ -115,9 +115,9 @@ function ProductPopup(props) {
                     <Table className="Table">
                         <Table.Body>
                             {productDetails['pl'].map((detail) => (
-                            <Table.Row  height="auto" intent={detail.id%2?"success":"none"} key={detail.id}>
-                                <Table.TextCell>{detail.name}</Table.TextCell>
-                                <Table.TextCell>{detail.value}</Table.TextCell>
+                            <Table.Row  intent={detail.id%2?"success":"none"} key={detail.id}>
+                                <Table.TextCell className="Cell">{detail.name}</Table.TextCell>
+                                <Table.TextCell className="Cell">{detail.value}</Table.TextCell>
                             </Table.Row>
                             ))}
                         </Table.Body>
